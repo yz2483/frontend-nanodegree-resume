@@ -21,7 +21,7 @@ h1 {
 }
 
 h2 {
-  font-style: bold;
+  font-weight: bold;
   font-size: 24px;
   color: #999999;
   line-height: 29px;
@@ -32,11 +32,11 @@ h3 {
   font-style: italic;
   font-size: 20px;
   color: #000000;
-  line-height: 22px;
+  line-height: 22px; 
 }
 
 h4 {
-  font-style: bold;
+  font-weight: bold;
   font-size: 14px;
   color: #4A4A4A;
   line-height: 17px;
@@ -53,8 +53,8 @@ h2, h3, h4, h5 {
   font-style: italic;
   font-size: 14px;
   color: #999999;
-  line-height: 16px;
   float: left;
+  padding-right: 10px;
 }
 
 .location-text {
@@ -75,7 +75,7 @@ p {
 a {
   color: #1199C3;
   text-decoration: none;
-  margin-top: 10px;
+  margin-top: 5px;
   display: block;
 }
 
@@ -89,6 +89,7 @@ a {
 #skillsH3 {
   color: #F5AE23;
   display: none;
+  padding-left: 0; 
 }
 
 #skills {
@@ -101,6 +102,10 @@ a {
 
 .orange-text {
   color: #F5AE23;
+}
+
+.yellow-text {
+    color: #ffd800;    
 }
 
 .white-text {
@@ -121,15 +126,16 @@ a {
 /* TODO: Replace with image later */
 #header {
   background-color: #484848;
+  padding-top: 30px;
+  padding-bottom: 15px;
 }
 
 .flex-box {
   display: -webkit-flex;
-  display: flex;
+  display: flexbox;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
-  padding: 10px;
 }
 
 .center-content {
@@ -217,3 +223,21 @@ span {
     display: block;
   }
 }
+
+.flex-item { 
+  padding: 5px; 
+  font-weight: 200;
+  font-size: 14px;
+  text-align: left;
+  list-style-type: square;
+}
+ 
+.flex-item-inline {   
+  display: inline-block;
+  list-style-type: none;
+  padding: 5px; 
+  font-weight: 200;
+  font-size: 14px; 
+ 
+}
+ 
