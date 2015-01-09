@@ -86,8 +86,9 @@ work.display = function () {
 
 /****************************************Education Information ****************************/
 
-var education = { "schools":
-   [{ "name": "California State University of EastBay",
+var education = {
+   "schools":[{ 
+       "name": "California State University of EastBay",
        "degree": "Master",
        "dates": "2002 - 2004",
        "location": "Hayward of California",
@@ -202,6 +203,7 @@ education.display();
 
 //Internationalize
 $('#main').append(internationalizeButton);
+
 
 
 // Log clicks
